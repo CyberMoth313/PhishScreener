@@ -63,7 +63,7 @@ if language == "English":
     - Avoid sharing **CNIC, family, or banking details** with unverified sources.
     - **Urgent calls to action** (e.g. "click now", "transfer quickly") are suspicious.
     - Check for **brand impersonation** in URLs or email addresses.
-    - If it’s an online store or e-commerce site and even if its secure, i, **always check reviews and return policies before purchasing.**
+    - If it’s an online store or e-commerce site and even if its secure, **always check reviews and return policies before purchasing.**
     """)
 else:
     st.markdown("""
