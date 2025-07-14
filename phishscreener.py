@@ -52,17 +52,6 @@ button[kind="primary"], .stButton>button {
 language = st.radio("Select Language", ["English", "اردو"])
 rtl = language == "اردو"
 
-# ---------- QURAN ----------
-st.markdown("""
-<div style='text-align: center; direction: rtl; font-size: 22px;'>
-<b>﴿ يَا أَيُّهَا الَّذِينَ آمَنُوا إِن جَاءَكُمْ فَاسِقٌۭ بِنَبَإٍۢ فَتَبَيَّنُوا ﴾</b><br>
-<i>"اے ایمان والو! اگر کوئی فاسق تمہارے پاس کوئی خبر لے کر آئے تو تحقیق کر لیا کرو"</i><br>
-<span>سورۃ الحجرات، آیت ٦</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.title("🎣 PhishScreener")
-
 # ---------- SAFETY TIPS ----------
 if language == "English":
     st.markdown("""
