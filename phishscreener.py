@@ -63,6 +63,7 @@ if language == "English":
     - Avoid sharing **CNIC, family, or banking details** with unverified sources.
     - **Urgent calls to action** (e.g. "click now", "transfer quickly") are suspicious.
     - Check for **brand impersonation** in URLs or email addresses.
+    - If it’s an online store or e-commerce site and even if its secure, i, **always check reviews and return policies before purchasing.**
     """)
 else:
     st.markdown("""
@@ -74,6 +75,7 @@ else:
     <li>آن لائن نوکری کی آفر اگر پیسے مانگے تو وہ جعلی ہو سکتی ہے۔</li>
     <li>مشکوک ویب سائٹس پر اپنی شناختی، بینک یا ذاتی معلومات نہ دیں۔</li>
     <li>ویب لنک اور برانڈ کا ہجے غور سے چیک کریں — یہ جعلی بھی ہو سکتا ہے۔</li>
+    <li>اگر ویب سائٹ محفوظ لگتی ہو، لیکن یہ اسٹور یا آن لائن خریداری کی ہو، تو خریدنے سے پہلے اس کے ریویوز اور ریٹرن پالیسی ضرور چیک کریں۔</li>
     </ul>
     </div>
     """, unsafe_allow_html=True)
