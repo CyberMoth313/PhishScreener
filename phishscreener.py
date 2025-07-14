@@ -52,7 +52,7 @@ button[kind="primary"], .stButton>button {
 language = st.radio("Select Language", ["English", "اردو"])
 rtl = language == "اردو"
 
-st.title("🎣 PhishScreener"
+st.title("🎣 PhishScreener")
 
 # ---------- SAFETY TIPS ----------
 if language == "English":
