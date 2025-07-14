@@ -87,7 +87,7 @@ if language == "English":
         - **PhishScreener** helps identify websites that might be unsafe, suspicious, or malicious.
         - Use **Basic Scan** to quickly assess a URL based on its structure and naming patterns.
         - Use **Advanced Scan** for deeper analysis using threat feeds and site content.
-        - Only **public information** is analyzed—your input is never stored.
+        - Only **public information** is analyzed—your data is never stored.
         - This tool cannot *guarantee* safety but highlights **visible red flags**.
         """)
 else:
